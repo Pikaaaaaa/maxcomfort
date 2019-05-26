@@ -1,0 +1,708 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <![endif]-->
+    <title>Maxcomfort</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="google-site-verification" content="">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <link rel="icon" href="images/fav.png" type="image/png" sizes="16x16">
+
+    <!--Plugins-->
+    <link href="https://use.fontawesome.com/releases/v5.0.7/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="plugins/OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="plugins/OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="plugins/MDB-Free/css/bootstrap.min.css">
+    <link rel="stylesheet" href="plugins/MDB-Free/css/mdb.min.css">
+    <link href="plugins/animatecss/animate.css" rel="stylesheet">
+    <link rel="stylesheet" href="plugins/malihu-custom-scrollbar-plugin-master/jquery.mCustomScrollbar.css">
+    <link rel="stylesheet" href="plugins/bootstrap-select/dist/css/bootstrap-select.css">
+    <!--Custom Css-->
+    <link href="styles/css/style-ka.css" rel="stylesheet">
+
+</head>
+
+<body class="site">
+    <div class="header-side-menu position-fixed d-none">
+        <div class="header-side-menu__top">
+            <div class="container d-flex align-items-center justify-content-between">
+                <a href="#" class="d-block logo">
+                    <img src="images/logo.svg" alt="logo" width="100px" height="50px">
+                </a>
+                <a href="#" class="d-inline-block header-side-menu__close">
+                    <i class="fa fa-times" aria-hidden="true"></i>
+                </a>
+            </div>
+        </div>
+        <nav class="header-side-menu__nav mt-70">
+            <a href="#" class="header-side-menu__nav-el d-block text-center">
+                ჩვენ შესახებ
+            </a>
+            <a href="#" class="header-side-menu__nav-el d-block text-center">
+                მომსახურება
+            </a>
+            <a href="#" class="header-side-menu__nav-el d-block text-center">
+                მედია-ცენტრი
+            </a>
+            <a href="#" class="header-side-menu__nav-el d-block text-center">
+                სად გვიპოვოთ
+            </a>
+            <a href="#" class="header-side-menu__nav-el d-block text-center">
+                კონტაქტი
+            </a>
+        </nav>
+    </div>
+    <header class="site__header">
+        <div class="header">
+            <div class="header__top d-none d-lg-block">
+                <div class="container d-flex align-items-center justify-content-between">
+                    <nav class="header__nav">
+                        <a href="#" class="header__nav-el">
+                            ჩვენ შესახებ
+                        </a>
+                        <a href="#" class="header__nav-el">
+                            მომსახურება
+                        </a>
+                        <a href="#" class="header__nav-el">
+                            მედია-ცენტრი
+                        </a>
+                        <a href="#" class="header__nav-el">
+                            სად გვიპოვოთ
+                        </a>
+                        <a href="#" class="header__nav-el">
+                            კონტაქტი
+                        </a>
+                    </nav>
+                    <div class="header__contact">
+                        <span class="d-inline-block header__contact-el">
+                            <img src="images/phone.png" alt="phone">
+                            <span class="header__contact-el--small">
+                                (+995) 32
+                            </span> 2 477 555
+                        </span>
+                        <span class="d-inline-block header__contact-el ml-20">
+                            EN
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="header__bottom">
+                <div class="container d-flex align-items-center justify-content-between">
+                    <div class="row align-items-center">
+                        <div class="col-3 d-lg-block d-none text-lg-left text-right">
+                            <a href="#" class="logo">
+                                <img src="images/logo.svg" alt="logo" width="100px" height="50px">
+                            </a>
+                        </div>
+                        <div class="col-md-1 col-6 d-lg-none d-block order-lg-1 order-3 text-right">
+                            <a href="#" class="header-nav-toggle d-inline-block">
+                                <i class="fas fa-bars"></i>
+                            </a>
+                        </div>
+                        <div class="col-lg-6 col-md-8 d-flex align-items-center order-md-2 order-3">
+                            <div class="btn-group">
+                                <button class="btn btn--categories btn--transparent dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">კატეგორია</button>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" href="#">კატეგორია</a>
+                                    <a class="dropdown-item" href="#">კატეგორია</a>
+                                    <a class="dropdown-item" href="#">კატეგორია</a>
+                                </div>
+                            </div>
+                            <div class="input-group header__search md-form form-sm form-2 pl-0">
+                                <input class="form-control my-0 py-1 red-border" type="text" placeholder="საძიებო ტექსტი" aria-label="Search">
+                                <div class="input-group-append">
+                                    <span class="input-group-text red lighten-3" id="basic-text1"><i class="fa fa-search text-grey" aria-hidden="true"></i></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-6 position-initial order-lg-3 order-1">
+                            <div class="production text-lg-right text-left">
+                                <button class="btn btn--red btn--products">
+                                    პროდუქცია
+                                </button>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="site__content position-relative">
+        <div class="content">
+            <div class="container d-none d-lg-block">
+                <div id="content__carousel" class="carousel content__carousel slide carousel-fade" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#content__carousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#content__carousel" data-slide-to="1"></li>
+                        <li data-target="#content__carousel" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner" role="listbox">
+                        <div class="carousel-item content__carousel-item active" style="background-image: url(uploads/images/slider-bg.png)">
+                            <div class="content__carousel-desc">
+                                <h1 class="content__carousel-title">
+                                    კონდიცირების სისტემების ახალი პარტია
+                                </h1>
+                                <p class="text-holder">
+                                    ERENSAN–ის ფოლადის ქვაბები გამოირჩევა მაღალი ეფექტურობით და ხანგრძლივი საექსპულატაციო ვადით. სპეციფიური კონსტრუქცია განაპირობებს დანალექების წარმოშობის მინიმიზაციას, სითბოს დაბანალსებულ განაწილებას წვის კამერაში და მის თანაბარ გაფართოვებას.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="carousel-item content__carousel-item" style="background-image: url(uploads/images/slider-bg.png)">
+                            <div class="content__carousel-desc">
+                                <h1 class="content__carousel-title">
+                                    კონდიცირების სისტემების ახალი პარტია
+                                </h1>
+                                <p class="text-holder">
+                                    ERENSAN–ის ფოლადის ქვაბები გამოირჩევა მაღალი ეფექტურობით და ხანგრძლივი საექსპულატაციო ვადით. სპეციფიური კონსტრუქცია განაპირობებს დანალექების წარმოშობის მინიმიზაციას, სითბოს დაბანალსებულ განაწილებას წვის კამერაში და მის თანაბარ გაფართოვებას.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="carousel-item content__carousel-item" style="background-image: url(uploads/images/slider-bg.png)">
+                            <div class="content__carousel-desc">
+                                <h1 class="content__carousel-title">
+                                    კონდიცირების სისტემების ახალი პარტია
+                                </h1>
+                                <p class="text-holder">
+                                    ERENSAN–ის ფოლადის ქვაბები გამოირჩევა მაღალი ეფექტურობით და ხანგრძლივი საექსპულატაციო ვადით. სპეციფიური კონსტრუქცია განაპირობებს დანალექების წარმოშობის მინიმიზაციას, სითბოს დაბანალსებულ განაწილებას წვის კამერაში და მის თანაბარ გაფართოვებას.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <section class="section products">
+                <div class="container">
+                    <div class="section__top d-flex align-items-center justify-content-between">
+                        <h2 class="section__title">
+                            პროდუქცია
+                        </h2>
+                        <a href="#" class="d-inline-block section__subtitle">
+                            ყველა პროდუქტი
+                        </a>
+                    </div>
+                    <div class="row align-items-center mt-55">
+                        <div class="col-lg-3 col-md-6 products__item">
+                            <div class="products__item-inner">
+                                <div class="products__img-holder">
+                                    <img src="uploads/images/product1.svg" alt="product" width="100%" height="100%">
+                                </div>
+                                <h4 class="products__title">
+                                    ბუნებრივ აირზე და დიზელზე მომუშავე გათბობის ქვაბი
+                                </h4>
+                                <span class="text-holder d-block">
+                                    სტაციონარული ქვაბის სანთურა
+                                </span>
+                                <div class="products__bottom d-flex align-items-center justify-content-between mt-30">
+                                    <span class="d-block products__price">
+                                        1800
+                                    </span>
+                                    <button class="btn btn--red">
+                                        შეკვეთა
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 products__item">
+                            <div class="products__item-inner">
+                                <div class="products__img-holder">
+                                    <img src="uploads/images/product2.svg" alt="product" width="100%" height="100%">
+                                </div>
+                                <h4 class="products__title">
+                                    ბუნებრივ აირზე და დიზელზე მომუშავე გათბობის ქვაბი
+                                </h4>
+                                <span class="text-holder d-block">
+                                    სტაციონარული ქვაბის სანთურა
+                                </span>
+                                <div class="products__bottom d-flex align-items-center justify-content-between mt-30">
+                                    <span class="d-block products__price">
+                                        1800
+                                    </span>
+                                    <button class="btn btn--red">
+                                        შეკვეთა
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 products__item">
+                            <div class="products__item-inner">
+                                <div class="products__img-holder">
+                                    <img src="uploads/images/product3.svg" alt="product" width="100%" height="100%">
+                                </div>
+                                <h4 class="products__title">
+                                    ბუნებრივ აირზე და დიზელზე მომუშავე გათბობის ქვაბი
+                                </h4>
+                                <span class="text-holder d-block">
+                                    სტაციონარული ქვაბის სანთურა
+                                </span>
+                                <div class="products__bottom d-flex align-items-center justify-content-between mt-30">
+                                    <span class="d-block products__price">
+                                        1800
+                                    </span>
+                                    <button class="btn btn--red">
+                                        შეკვეთა
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 products__item">
+                            <div class="products__item-inner">
+                                <div class="products__img-holder">
+                                    <img src="uploads/images/product4.svg" alt="product" width="100%" height="100%">
+                                </div>
+                                <h4 class="products__title">
+                                    ბუნებრივ აირზე და დიზელზე მომუშავე გათბობის ქვაბი
+                                </h4>
+                                <span class="text-holder d-block">
+                                    სტაციონარული ქვაბის სანთურა
+                                </span>
+                                <div class="products__bottom d-flex align-items-center justify-content-between mt-30">
+                                    <span class="d-block products__price">
+                                        1800
+                                    </span>
+                                    <button class="btn btn--red">
+                                        შეკვეთა
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 products__item">
+                            <div class="products__item-inner">
+                                <div class="products__img-holder">
+                                    <img src="uploads/images/product5.svg" alt="product" width="100%" height="100%">
+                                </div>
+                                <h4 class="products__title">
+                                    ბუნებრივ აირზე და დიზელზე მომუშავე გათბობის ქვაბი
+                                </h4>
+                                <span class="text-holder d-block">
+                                    სტაციონარული ქვაბის სანთურა
+                                </span>
+                                <div class="products__bottom d-flex align-items-center justify-content-between mt-30">
+                                    <span class="d-block products__price">
+                                        1800
+                                    </span>
+                                    <button class="btn btn--red">
+                                        შეკვეთა
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 products__item">
+                            <div class="products__item-inner">
+                                <div class="products__img-holder">
+                                    <img src="uploads/images/product6.svg" alt="product" width="100%" height="100%">
+                                </div>
+                                <h4 class="products__title">
+                                    ბუნებრივ აირზე და დიზელზე მომუშავე გათბობის ქვაბი
+                                </h4>
+                                <span class="text-holder d-block">
+                                    სტაციონარული ქვაბის სანთურა
+                                </span>
+                                <div class="products__bottom d-flex align-items-center justify-content-between mt-30">
+                                    <span class="d-block products__price">
+                                        1800
+                                    </span>
+                                    <button class="btn btn--red">
+                                        შეკვეთა
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 products__item">
+                            <div class="products__item-inner">
+                                <div class="products__img-holder">
+                                    <img src="uploads/images/product7.svg" alt="product" width="100%" height="100%">
+                                </div>
+                                <h4 class="products__title">
+                                    ბუნებრივ აირზე და დიზელზე მომუშავე გათბობის ქვაბი
+                                </h4>
+                                <span class="text-holder d-block">
+                                    სტაციონარული ქვაბის სანთურა
+                                </span>
+                                <div class="products__bottom d-flex align-items-center justify-content-between mt-30">
+                                    <span class="d-block products__price">
+                                        1800
+                                    </span>
+                                    <button class="btn btn--red">
+                                        შეკვეთა
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 products__item">
+                            <div class="products__item-inner">
+                                <div class="products__img-holder">
+                                    <img src="uploads/images/product8.svg" alt="product" width="100%" height="100%">
+                                </div>
+                                <h4 class="products__title">
+                                    ბუნებრივ აირზე და დიზელზე მომუშავე გათბობის ქვაბი
+                                </h4>
+                                <span class="text-holder d-block">
+                                    სტაციონარული ქვაბის სანთურა
+                                </span>
+                                <div class="products__bottom d-flex align-items-center justify-content-between mt-30">
+                                    <span class="d-block products__price">
+                                        1800
+                                    </span>
+                                    <button class="btn btn--red">
+                                        შეკვეთა
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="section services">
+                <div class="container">
+                    <h3 class="section__title">
+                        ჩვენი სერვისები
+                    </h3>
+                    <div class="row mt-80">
+                        <div class="col-xl-4 col-md-6 col-12 service">
+                            <a href="#" class="d-block service__wrapper">
+                                <div class="service__overlay-one position-absolute"></div>
+                                <div class="service__overlay-two position-absolute"></div>
+                                <div class="service__content position-relative">
+                                    <div class="service__content-top d-flex align-items-center">
+                                        <div class="service__img-holder">
+                                            <img src="images/support.svg" alt="support" width="100%" height="100%">
+                                        </div>
+                                        <h4 class="service__subtitle pl-20">
+                                            კონსულტაცია
+                                        </h4>
+                                    </div>
+                                    <p class="text-holder text-holder--services">
+                                        საბეჭდი და ტიპოგრაფიული ინდუსტრიის უშინაარსო ტექსტია. იგი სტანდარტად 1500-იანი წლებიდან იქცა, როდესაც უცნობმა მბეჭდავმა ამწყობ დაზგაზე წიგნის საცდელი ეგზემპლარი დაბეჭდა.
+                                    </p>
+                                    <div class="service__dots pt-20 text-right">
+                                        <img src="images/dot.png" alt="dots">
+                                        <img src="images/dot.png" alt="dots">
+                                        <img src="images/dot.png" alt="dots">
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-xl-4 col-md-6 col-12 service">
+                            <a href="#" class="d-block service__wrapper">
+                                <div class="service__overlay-one position-absolute"></div>
+                                <div class="service__overlay-two position-absolute"></div>
+                                <div class="service__content position-relative">
+                                    <div class="service__content-top d-flex align-items-center">
+                                        <div class="service__img-holder">
+                                            <img src="images/moving-truck.svg" alt="truck" width="100%" height="100%">
+                                        </div>
+                                        <h4 class="service__subtitle pl-20">
+                                            მიწოდება
+                                        </h4>
+                                    </div>
+                                    <p class="text-holder text-holder--services">
+                                        საბეჭდი და ტიპოგრაფიული ინდუსტრიის უშინაარსო ტექსტია. იგი სტანდარტად 1500-იანი წლებიდან იქცა, როდესაც უცნობმა მბეჭდავმა ამწყობ დაზგაზე წიგნის საცდელი ეგზემპლარი დაბეჭდა.
+                                    </p>
+                                    <div class="service__dots pt-20 text-right">
+                                        <img src="images/dot.png" alt="dots">
+                                        <img src="images/dot.png" alt="dots">
+                                        <img src="images/dot.png" alt="dots">
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-xl-4 col-md-6 col-12 service">
+                            <a href="#" class="d-block service__wrapper">
+                                <div class="service__overlay-one position-absolute"></div>
+                                <div class="service__overlay-two position-absolute"></div>
+                                <div class="service__content position-relative">
+                                    <div class="service__content-top d-flex align-items-center">
+                                        <div class="service__img-holder">
+                                            <img src="images/tools.svg" alt="tools" width="100%" height="100%">
+                                        </div>
+                                        <h4 class="service__subtitle pl-20">
+                                            მონტაჟი
+                                        </h4>
+                                    </div>
+                                    <p class="text-holder text-holder--services">
+                                        საბეჭდი და ტიპოგრაფიული ინდუსტრიის უშინაარსო ტექსტია. იგი სტანდარტად 1500-იანი წლებიდან იქცა, როდესაც უცნობმა მბეჭდავმა ამწყობ დაზგაზე წიგნის საცდელი ეგზემპლარი დაბეჭდა.
+                                    </p>
+                                    <div class="service__dots pt-20 text-right">
+                                        <img src="images/dot.png" alt="dots">
+                                        <img src="images/dot.png" alt="dots">
+                                        <img src="images/dot.png" alt="dots">
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-xl-4 col-md-6 col-12 service">
+                            <a href="#" class="d-block service__wrapper">
+                                <div class="service__overlay-one position-absolute"></div>
+                                <div class="service__overlay-two position-absolute"></div>
+                                <div class="service__content position-relative">
+                                    <div class="service__content-top d-flex align-items-center">
+                                        <div class="service__img-holder">
+                                            <img src="images/guarantee.svg" alt="support" width="100%" height="100%">
+                                        </div>
+                                        <h4 class="service__subtitle pl-20">
+                                            საგარანტიო სერვისი
+                                        </h4>
+                                    </div>
+                                    <p class="text-holder text-holder--services">
+                                        საბეჭდი და ტიპოგრაფიული ინდუსტრიის უშინაარსო ტექსტია. იგი სტანდარტად 1500-იანი წლებიდან იქცა, როდესაც უცნობმა მბეჭდავმა ამწყობ დაზგაზე წიგნის საცდელი ეგზემპლარი დაბეჭდა.
+                                    </p>
+                                    <div class="service__dots pt-20 text-right">
+                                        <img src="images/dot.png" alt="dots">
+                                        <img src="images/dot.png" alt="dots">
+                                        <img src="images/dot.png" alt="dots">
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-xl-4 col-md-6 col-12 service">
+                            <a href="#" class="d-block service__wrapper">
+                                <div class="service__overlay-one position-absolute"></div>
+                                <div class="service__overlay-two position-absolute"></div>
+                                <div class="service__content position-relative">
+                                    <div class="service__content-top d-flex align-items-center">
+                                        <div class="service__img-holder">
+                                            <img src="images/employee.svg" alt="support" width="100%" height="100%">
+                                        </div>
+                                        <h4 class="service__subtitle pl-20">
+                                            კორპორატიული მომსახურება
+                                        </h4>
+                                    </div>
+                                    <p class="text-holder text-holder--services">
+                                        საბეჭდი და ტიპოგრაფიული ინდუსტრიის უშინაარსო ტექსტია. იგი სტანდარტად 1500-იანი წლებიდან იქცა, როდესაც უცნობმა მბეჭდავმა ამწყობ დაზგაზე წიგნის საცდელი ეგზემპლარი დაბეჭდა.
+                                    </p>
+                                    <div class="service__dots pt-20 text-right">
+                                        <img src="images/dot.png" alt="dots">
+                                        <img src="images/dot.png" alt="dots">
+                                        <img src="images/dot.png" alt="dots">
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-xl-4 col-md-6 col-12 service">
+                            <a href="#" class="d-block service__wrapper">
+                                <div class="service__overlay-one position-absolute"></div>
+                                <div class="service__overlay-two position-absolute"></div>
+                                <div class="service__content position-relative">
+                                    <div class="service__content-top d-flex align-items-center">
+                                        <div class="service__img-holder">
+                                            <img src="images/handshake.svg" alt="support" width="100%" height="100%">
+                                        </div>
+                                        <h4 class="service__subtitle pl-20">
+                                            პარტნიორული პროგრამა
+                                        </h4>
+                                    </div>
+                                    <p class="text-holder text-holder--services">
+                                        საბეჭდი და ტიპოგრაფიული ინდუსტრიის უშინაარსო ტექსტია. იგი სტანდარტად 1500-იანი წლებიდან იქცა, როდესაც უცნობმა მბეჭდავმა ამწყობ დაზგაზე წიგნის საცდელი ეგზემპლარი დაბეჭდა.
+                                    </p>
+                                    <div class="service__dots pt-20 text-right">
+                                        <img src="images/dot.png" alt="dots">
+                                        <img src="images/dot.png" alt="dots">
+                                        <img src="images/dot.png" alt="dots">
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="section news">
+                <div class="container">
+                    <div class="news__top d-flex align-items-center justify-content-between">
+                        <h3 class="section__title">
+                            სიახლეები
+                        </h3>
+                        <a href="#" class="d-inline-block section__subtitle">
+                            ყველა სიახლე
+                        </a>
+                    </div>
+                    <div class="row pt-80">
+                        <div class="col-md-6">
+                            <a class="article d-block">
+                                <div class="article__img-holder">
+                                    <img src="uploads/images/post-1.png" alt="post">
+                                </div>
+                                <div class="article__desc d-flex align-items-center justify-content-between bg-white">
+                                    <p class="text-holder text-holder--article">
+                                        MAXCOMFORT-ის საქველმოქმედო საღამო უსახლკარო ბავშვების დასახმარებლად
+                                    </p>
+                                    <img src="images/right-arrow.svg" alt="arrow" width="25px" height="15px">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-6">
+                            <a class="article d-block">
+                                <div class="article__img-holder">
+                                    <img src="uploads/images/post-2.png" alt="post">
+                                </div>
+                                <div class="article__desc d-flex align-items-center justify-content-between bg-white">
+                                    <p class="text-holder text-holder--article">
+                                        MAXCOMFORT-ის საქველმოქმედო საღამო უსახლკარო ბავშვების დასახმარებლად
+                                    </p>
+                                    <img src="images/right-arrow.svg" alt="arrow" width="25px" height="15px">
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="section sponsors">
+                <div class="container">
+                    <div class="owl-carousel owl-theme sponsors__carousel">
+                        <div class="item sponsors__carousel-item">
+                            <div class="sponsors__carousel-img-holder">
+                                <img src="images/haier.svg" alt="Haier" width="100%" height="100%">
+                            </div>
+                        </div>
+                        <div class="item sponsors__carousel-item">
+                            <div class="sponsors__carousel-img-holder">
+                                <img src="images/helios.svg" alt="Helios" width="100%" height="100%">
+                            </div>
+                        </div>
+                        <div class="item sponsors__carousel-item">
+                            <div class="sponsors__carousel-img-holder">
+                                <img src="images/rheem.svg" alt="Rheem" width="100%" height="100%">
+                            </div>
+                        </div>
+                        <div class="item sponsors__carousel-item">
+                            <div class="sponsors__carousel-img-holder">
+                                <img src="images/kingspan.svg" alt="Kingspan" width="100%" height="100%">
+                            </div>
+                        </div>
+                        <div class="item sponsors__carousel-item">
+                            <div class="sponsors__carousel-img-holder">
+                                <img src="images/cib-unigas.svg" alt="Cib Unigas" width="100%" height="100%">
+                            </div>
+                        </div>
+                        <div class="item sponsors__carousel-item">
+                            <div class="sponsors__carousel-img-holder">
+                                <img src="images/mastas.svg" alt="Mastas" width="100%" height="100%">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer class="site__footer">
+        <div class="footer">
+            <div class="footer__top">
+                <div class="container text-center text-md-left">
+                    <div class="row">
+                        <div class="col-md-3 footer__content">
+                            <div class="footer__content-top d-flex d-align-items-center justify-content-between text-center">
+                                <h4 class="footer__top-subtitle">
+                                    ჩვენს შესახებ
+                                </h4>
+                                <a href="#" class="expand-footer-services d-md-none">
+                                    <img src="images/plus.svg" alt="expand" width="12px" height="12px">
+                                </a>
+                                <a href="#" class="close-footer-services d-none d-md-none">
+                                    <img src="images/minus.svg" alt="close" width="12px" height="12px">
+                                </a>
+                            </div>
+                            <p class="footer__services text-holder">
+                                კომპანიამ დაიწყო თავისი ბიზნესი როგორც ერთადერთი საინჟინრო კონტრაქტორი დიდი ინდუსტრიალური ჯგუფების სახელით, იტალიური და საერთაშორისო, ხარისხის და საიმედოობის დაცვით.
+                            </p>
+                        </div>
+                        <div class="col-md-3 footer__content">
+                            <div class="footer__content-top d-flex d-align-items-center justify-content-between text-center">
+                                <h4 class="footer__top-subtitle">
+                                    მომსახურეობა
+                                </h4>
+                                <a href="#" class="expand-footer-services d-md-none">
+                                    <img src="images/plus.svg" alt="expand" width="12px" height="12px">
+                                </a>
+                                <a href="#" class="close-footer-services d-none d-md-none">
+                                    <img src="images/minus.svg" alt="close" width="12px" height="12px">
+                                </a>
+                            </div>
+                            <ul class="footer__services">
+                                <li><a href="#">კონსულტაცია</a></li>
+                                <li><a href="#">მიწოდება</a></li>
+                                <li><a href="#">მონტაჟი</a></li>
+                                <li><a href="#">საგარანტიო სერვისი</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-3 footer__content">
+                            <div class="footer__content-top d-flex d-align-items-center justify-content-between text-center">
+                                <h4 class="footer__top-subtitle">
+                                    მედია–ცენტრი
+                                </h4>
+                                <a href="#" class="expand-footer-services d-md-none">
+                                    <img src="images/plus.svg" alt="expand" width="12px" height="12px">
+                                </a>
+                                <a href="#" class="close-footer-services d-none d-md-none">
+                                    <img src="images/minus.svg" alt="close" width="12px" height="12px">
+                                </a>
+                            </div>
+                            <ul class="footer__services">
+                                <li><a href="#">კორპორაციული მომსახურება</a></li>
+                                <li><a href="#">პარტნიორული პროგრამა</a></li>
+                                <li><a href="#">აქციები</a></li>
+                                <li><a href="#">სიახლეები</a></li>
+                                <li><a href="#">ბლოგი</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-3 footer__content">
+                            <div class="footer__content-top d-flex d-align-items-center justify-content-between text-center">
+                                <h4 class="footer__top-subtitle">
+                                    დახმარება
+                                </h4>
+                                <a href="#" class="expand-footer-services d-md-none">
+                                    <img src="images/plus.svg" alt="expand" width="12px" height="12px">
+                                </a>
+                                <a href="#" class="close-footer-services d-none d-md-none">
+                                    <img src="images/minus.svg" alt="close" width="12px" height="12px">
+                                </a>
+                            </div>
+                            <ul class="footer__services">
+                                <li><a href="#">კორპორაციული მომსახურება</a></li>
+                                <li><a href="#">პარტნიორული პროგრამა</a></li>
+                                <li><a href="#">აქციები</a></li>
+                                <li><a href="#">სიახლეები</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-6 text-left">
+                            © MaxComfort. All Rights Reserved
+                        </div>
+                        <div class="col-6 text-right">
+                            <img src="images/mobility.svg" alt="mobility" width="100px" height="12px">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!--Plugins-->
+    <script src="plugins/jquery/jquery-3.3.1.min.js"></script>
+    <script src="plugins/bootstrap-4.0.0"></script>
+    <script src="plugins/OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
+    <script src="js/sponsorsCarousel.js"></script>
+    <script src="plugins/MDB-Free/js/mdb.min.js"></script>
+    <script src="plugins/MDB-Free/js/popper.min.js"></script>
+    <script src="plugins/MDB-Free/js/bootstrap.min.js"></script>
+    <script src="plugins/malihu-custom-scrollbar-plugin-master/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script src="plugins/bootstrap-select/dist/js/bootstrap-select.js"></script>
+
+    <!--Custom Scripts-->
+    <script src="minJs/default.min.js"></script>
+</body>
+
+</html>

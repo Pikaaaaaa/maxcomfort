@@ -1,0 +1,5 @@
+//        $currentFooterServices = $currentFooterContent.find('.footer__services');
+//        $expandCurrentFooterServices = $currentFooterContent.find('.expand-footer-services');
+//        $expandCurrentFooterServices.removeClass('active');
+//        $closeCurrentFooterServices = $currentFooterContent.find('.close-footer-services');
+//        $closeCurrentFooterServices.addClass('d-inline-block');
